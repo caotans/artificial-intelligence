@@ -5,7 +5,7 @@
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/CT_Girl_JFrame.java" changelist="f32c7e38-f27d-4ed2-9f78-b6eb2fa41af1" time="1504598481611" ignored="false" />
-    <file path="/DrawCT_Girl_impl.java" changelist="f32c7e38-f27d-4ed2-9f78-b6eb2fa41af1" time="1504598434493" ignored="false" />
+    <file path="/DrawCT_Girl_impl.java" changelist="f32c7e38-f27d-4ed2-9f78-b6eb2fa41af1" time="1504601533293" ignored="false" />
     <file path="/DrawCT_Girl.java" changelist="f32c7e38-f27d-4ed2-9f78-b6eb2fa41af1" time="1504598450854" ignored="false" />
     <file path="/RunMain.java" changelist="f32c7e38-f27d-4ed2-9f78-b6eb2fa41af1" time="1504599181400" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -68,15 +68,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="12" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CT_Girl_JFrame.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ct_gril/CT_Girl_JFrame.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,6 +86,27 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="DrawCT_Girl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ct_gril/DrawCT_Girl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="34" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DrawCT_Girl_impl.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ct_gril/DrawCT_Girl_impl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="70" column="89" selection-start="2621" selection-end="2621" vertical-scroll-proportion="0.32777777">
+              <folding>
+                <element signature="e#1956#3254#0" expanded="true" />
+                <element signature="e#3243#3244#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CT_Girl_JPanel_smile.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ct_gril/CT_Girl_JPanel_smile.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -104,28 +116,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DrawCT_Girl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ct_gril/DrawCT_Girl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="57" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DrawCT_Girl_impl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ct_gril/DrawCT_Girl_impl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="48" selection-start="1846" selection-end="1860" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RunMain.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RunMain.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ct_gril/RunMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="55" selection-start="268" selection-end="268" vertical-scroll-proportion="0.7975831">
+            <state line="12" column="78" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,10 +135,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ct_gril/DrawCT_Girl_impl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ct_gril/DrawCT_Girl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ct_gril/CT_Girl_JFrame.java" />
         <option value="$PROJECT_DIR$/src/main/java/ct_gril/RunMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ct_gril/DrawCT_Girl_impl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ct_gril/DrawCT_Girl.java" />
       </list>
     </option>
   </component>
@@ -296,7 +290,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="app" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -427,7 +427,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39858907" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -440,8 +440,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67019403" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329806" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.67019403" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -514,13 +514,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="12" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ct_gril/CT_Girl_JPanel_activety.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="13" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
@@ -528,23 +521,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ct_gril/CT_Girl_JPanel_smile.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ct_gril/DrawCT_Girl_impl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="48" selection-start="1846" selection-end="1860" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ct_gril/DrawCT_Girl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="57" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
+        <state line="11" column="12" selection-start="417" selection-end="417" vertical-scroll-proportion="0.44814816">
           <folding />
         </state>
       </provider>
@@ -556,10 +535,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ct_gril/CT_Girl_JPanel_smile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ct_gril/DrawCT_Girl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="34" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ct_gril/RunMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="55" selection-start="268" selection-end="268" vertical-scroll-proportion="0.7975831">
+        <state line="12" column="78" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ct_gril/DrawCT_Girl_impl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="89" selection-start="2621" selection-end="2621" vertical-scroll-proportion="0.32777777">
+          <folding>
+            <element signature="e#1956#3254#0" expanded="true" />
+            <element signature="e#3243#3244#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

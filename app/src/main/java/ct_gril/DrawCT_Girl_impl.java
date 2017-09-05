@@ -8,7 +8,7 @@ import java.awt.geom.Line2D;
 import java.awt.geom.Rectangle2D;
 
 public class DrawCT_Girl_impl implements DrawCT_Girl{
-
+    public static int status=1;
 
     @Override
     public void activety(Graphics2D g2) throws Exception {
@@ -58,23 +58,29 @@ public class DrawCT_Girl_impl implements DrawCT_Girl{
             @Override
             public void run() {
                 while (true){
-                    for(int i=0;i<time;i++){
                         try {
-                            System.out.println(i);
-                            if(i==0){
-                                ct_girl_jFrame.repaint();
+                            System.out.println(status);
+                            if(status==1){
+                                status=2;
+                                //ct_girl_jFrame.getContentPane().removeAll();
                                 CT_Girl_JPanel_activety panel = new CT_Girl_JPanel_activety();
                                 ct_girl_jFrame.add(panel);
-                            }else if(i==time-1){
-                                ct_girl_jFrame.repaint();
+                                ct_girl_jFrame.validate();
+                                ct_girl_jFrame.setVisible(true);
+
+                            }else {
+                                status=1;
+                                ct_girl_jFrame.getContentPane().removeAll();
                                 CT_Girl_JPanel_smile panel = new CT_Girl_JPanel_smile();
                                 ct_girl_jFrame.add(panel);
+                                ct_girl_jFrame.validate();
+                                ct_girl_jFrame.setVisible(true);
                             }
+                            Thread.sleep(time);
                         }catch (Exception e){
                             e.printStackTrace();
                         }
 
-                    }
                 }
             }
         };

@@ -10,7 +10,7 @@ import java.awt.*;
  * To change this template use File | Settings | File Templates.
  */
 public interface DrawCT_Girl  {
-    public final static int time=10;
+    public final static int time=2000;
     //活动
     public void activety(Graphics2D g2)throws Exception;
     //笑
