@@ -16,7 +16,7 @@ public interface DrawCT_Girl  {
     //笑
     public void smile(Graphics2D g2)throws Exception;
 
-    public void run_CT_Girl(RunMain runMain) throws Exception;
+    public void run_CT_Girl(CT_Girl_JFrame ct_girl_jFrame) throws Exception;
 
 
 }

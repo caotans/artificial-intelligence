@@ -53,7 +53,7 @@ public class DrawCT_Girl_impl implements DrawCT_Girl{
 
 
     @Override
-    public void run_CT_Girl(final RunMain runMain) throws Exception {
+    public void run_CT_Girl(final CT_Girl_JFrame ct_girl_jFrame) throws Exception {
         final Runnable begin=new Runnable() {
             @Override
             public void run() {
@@ -62,13 +62,13 @@ public class DrawCT_Girl_impl implements DrawCT_Girl{
                         try {
                             System.out.println(i);
                             if(i==0){
-                                runMain.repaint();
+                                ct_girl_jFrame.repaint();
                                 CT_Girl_JPanel_activety panel = new CT_Girl_JPanel_activety();
-                                runMain.add(panel);
+                                ct_girl_jFrame.add(panel);
                             }else if(i==time-1){
-                                runMain.repaint();
+                                ct_girl_jFrame.repaint();
                                 CT_Girl_JPanel_smile panel = new CT_Girl_JPanel_smile();
-                                runMain.add(panel);
+                                ct_girl_jFrame.add(panel);
                             }
                         }catch (Exception e){
                             e.printStackTrace();
