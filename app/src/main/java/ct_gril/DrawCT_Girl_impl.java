@@ -26,6 +26,8 @@ public class DrawCT_Girl_impl implements DrawCT_Girl{
         //绘制线条
         Line2D line = new Line2D.Double(leftX, topY, leftX + width, topY + height);//创建线条对象（4个参数表示两个端点坐标）
         g2.draw(line);//将线条对象绘制于Panel面板上
+        Line2D line2 = new Line2D.Double(leftX+ width, topY, leftX, topY + height);//创建线条对象（4个参数表示两个端点坐标）
+        g2.draw(line2);//将线条对象绘制于Panel面板上
         //绘制圆
         double centerX = rect.getCenterX();//定义圆心坐标（以矩形的中心为圆心）
         double centerY = rect.getCenterY();
